@@ -281,7 +281,10 @@ input [type=submit] {
 	.sidebar{
 		margin-right: 4%;
 		margin-left: 3%; 
-		float: left;
+		float: none;
+        clear: both;
+        max-width: inherit;
+        width: 650px;
 	}
 	#main-container{
 		width: 1000px;
@@ -317,7 +320,11 @@ input [type=submit] {
 	.sidebar{
 		margin-right: 4%;
 		margin-left: 3%; 
-		clear: both;
+        float: none;
+        clear: both;
+        max-width: inherit;
+        width: 550px;
+
 
 	}
 	#main-container{
