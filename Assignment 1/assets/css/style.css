@@ -231,11 +231,30 @@ input [type=submit] {
 
 
 @media only screen and (max-width: 980px) {
-	#masthead{
-		width: 
+	#logo{
+		margin-left: 10%; 
+	}
+	nav{
+		margin-right: 10%;
 	}
 
+	.main-container{
+		margin-left: 10%;
+		width: 430px;
+	}
+	.sidebar{
+		margin-right: 10%;
+	}
+	.auth-image{
+		width: 100%
+	}
 
+	input#name{
+		width: 100%
+	}
+	input#email{
+		width: 100%;
+	}
 
 
 }
@@ -244,8 +263,30 @@ input [type=submit] {
 
 
 @media only screen and (max-width: 768px) {
+	.auth-image{
+		width: 250px;
+	}
+	.main-container{
+		margin-left: 3%;
+		margin-right: 2%;
+		width: 100%;
+	}
 
-
+	#logo{
+		margin-left: 3%; 
+	}
+	nav{
+		margin-right: 3%;
+	}
+	.sidebar{
+		margin-right: 4%;
+		margin-left: 3%; 
+		clear: both;
+		float: left; 
+	}
+	#main-container{
+		width: 1000px;
+	}
 
 
 }
@@ -253,8 +294,36 @@ input [type=submit] {
 
 
 @media only screen and (max-width: 640px) {
+	.auth-image{
+		width: 100%;
+	}
+	.main-container{
+		margin-left: 3%;
+		margin-right: 2%;
+		width: 550px;
+		margin-top: 5%
+	}
 
+	#logo{
+		margin-left: 0;
+		width: 100%
 
+	}
+	nav{
+		margin-right: 0;
+		width: 75%;
+		margin-top: 5px;
+
+	}
+	.sidebar{
+		margin-right: 4%;
+		margin-left: 3%; 
+		clear: both;
+
+	}
+	#main-container{
+		width: 1000px;
+	}
 
 
 }
