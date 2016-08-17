@@ -281,8 +281,7 @@ input [type=submit] {
 	.sidebar{
 		margin-right: 4%;
 		margin-left: 3%; 
-		clear: both;
-		float: left; 
+		float: left;
 	}
 	#main-container{
 		width: 1000px;
